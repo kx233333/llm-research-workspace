@@ -1,0 +1,3 @@
+[submodule "skill-source"]
+	path = skill-source
+	url = https://github.com/sdyckjq-lab/llm-wiki-skill.git

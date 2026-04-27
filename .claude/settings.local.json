@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:patch-diff.githubusercontent.com)",
+      "WebFetch(domain:hao-ai-lab.github.io)",
+      "WebFetch(domain:docs.nvidia.com)",
+      "WebFetch(domain:www.nvidia.com)",
+      "WebFetch(domain:resources.nvidia.com)",
+      "WebFetch(domain:developer.nvidia.cn)",
+      "WebFetch(domain:nvdam.widen.net)",
+      "WebFetch(domain:gitee.com)",
+      "WebFetch(domain:deepxiv.space)",
+      "WebFetch(domain:www.deepxiv.space)",
+      "WebFetch(domain:deepxiv.pages.dev)",
+      "WebFetch(domain:www.semanticscholar.org)",
+      "WebFetch(domain:webcache.googleusercontent.com)",
+      "WebSearch",
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "Bash(pip show *)",
+      "Bash(pip3 show *)",
+      "Bash(git clone *)",
+      "Bash(bash *)",
+      "Bash(jq *)",
+      "Bash(gh pr *)",
+      "Bash(gh api *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"*)",
+      "Bash(python3 -m json.tool)",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)",
+      "Skill(update-config)"
+    ]
+  }
+}
